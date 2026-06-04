@@ -9,9 +9,10 @@
 </head>
 
 <body>
+   
 
     <header class="h-[630px] bg-[url('./img/banner-bg.jpg')] bg-cover bg-center relative rounded-b-[120px] ">
-        <nav class="flex py-10 px-14 ">
+        <nav class="flex p-3 fixed top-0 left-0 w-full z-100 bg-blue-500 rounded-b-2xl">
 
             <div class=" flex  items-center justify-between gap-2 w-full">
                 <a href="#">
@@ -63,8 +64,8 @@
 
 
         <div>
-            <div>
-                <div class="text-white flex px-14 pt-6 justify-between ">
+            <div class="pt-16" >
+                <div class="text-white flex px-14 pt-16 justify-between ">
                     <div>
                         <h6 class="font-semibold-12 text-2xl">Welcome to lugx</h6>
                         <h2 class="mt-4 font-bold text-4xl">BEST
@@ -276,7 +277,7 @@
                         <div>
                             <div class="px-14  pt-6">
                                 <button role="button"
-                                    class=" px-6 py-4 bg-red-400 text-white hover:bg-blue-600 rounded-full font-semibold uppercase  ">view
+                                    class=" px-6 py-4 bg-red-400 text-white hover:bg-blue-600 rounded-full font-semibold uppercase translate-all duration-500">view
                                     all
                                 </button>
                             </div>
@@ -487,53 +488,87 @@
             </div>
         </div>
 
+    <!--section before footer-->
 
+        <div class="px-14 pt-20">
+    <div>
+        <div class="relative flex items-center justify-center w-full max-w-6xl mx-auto">
 
-        <div>
-            <div>
-                <div>
-                    <div>
+            <!-- LEFT CARD -->
+            <div class=" z-80">
+                <div class="rounded-3xl bg-gray-100 h-[430px] w-[400px] flex flex-col justify-center">
+                    <div class="p-12">
+                        <!--col 12-->
                         <div>
+                            <!--section heading-->
                             <div>
-                                <!--col 12-->
-                                <div>
-                                    <!--section heading-->
-                                    <div>
-                                        <h6>Our Shop</h6>
-                                        <h2>Go Pre-Order Buy &amp Get Best<em>Price</em> for you </h2>
+                                <h6 class="text-red-400 font-bold text-lg tracking-widest uppercase">Our Shop</h6>
+                                <h2 class="pt-6 font-extrabold text-2xl uppercase leading-snug">Go Pre-Order <br> Buy &amp; Get <br> Best <em class="text-blue-600 not-italic">Prices</em> <br> For You</h2>
+                            </div>
 
-                                    </div>
-                                    <p>
-                                    <p>Lorem ipsum dolor consectetur adipiscing, sed do eiusmod tempor incididunt.</p>
-                                    </p>
+                            <p class="pt-6 text-gray-500 text-sm">Lorem ipsum dolor consectetur adipiscing, sed do eiusmod tempor incididunt.
+                            </p>
 
-                                    <div>
-
-                                        <a href="#"
-                                            class="py-2 px-6 text-sm rounded-3xl font-semibold cursor-pointer text-white border border-white-600 bg-red-400 group-hover:bg-blue-600 uppercase ">Shop
-                                            Now
-                                        </a>
-
-                                    </div>
-
-                                </div>
+                            <div class="pt-8">
+                                <a href="#"
+                                    class="py-3 px-8 text-sm rounded-full font-bold cursor-pointer text-white bg-red-400 hover:bg-blue-500 uppercase">Shop
+                                    Now
+                                </a>
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-                    <!--our shop section finished-->
-
-
                 </div>
             </div>
+
+            <!-- CENTER IMAGE -->
+            <div class="relative z-20 -mx-12">
+                <img src="img/cta-bg.jpeg" alt="cta-bg" class="w-[470px] h-[520px] object-cover rounded-3xl shadow-2xl">
+            </div>
+
+            <!--our shop section finished-->
+
+            <!-- RIGHT CARD -->
+            <div class="z-50 pt-50">
+                <div class="bg-gray-100 rounded-3xl p-10 w-[420px] h-[430px] flex flex-col justify-center">
+                    <div>
+                        <div>
+                            <div>
+                                <h6 class="text-red-400 font-bold text-lg tracking-widest uppercase">NEWSLETTER</h6>
+                                <h2 class="pt-6 font-extrabold text-2xl uppercase leading-snug mb-8">Get Up To $100 Off Just Buy <em class="text-blue-600 not-italic">Subscribe</em> Newsletter!</h2>
+                            </div>
+                            <div>
+                                <form action="#" class="flex items-center bg-white rounded-full">
+                                    <input type="text" placeholder="Your email" onkeypress="handle"
+                                        class="flex-1 px-6 py-4 bg-transparent text-gray-700 placeholder-gray-500 outline-none">
+                                    <button role="button"
+                                        class="px-8 py-1 bg-red-400 hover:bg-blue-500 text-white rounded-full  uppercase">Subscribe
+                                        Now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </div>
+</div>
 
 
 
+
+<footer>
+
+    <div class="pt-20 " >
+        <img src="img\footer-bg.jpeg" alt="" class="rounded-t-[120px]" >
+        <div class="-mt-18 ">
+            <p class="px-70 text-white ">Copyright © 2048 LUGX Gaming Company. All rights reserved. &nbsp;&nbsp; <a rel="nofollow" href="https://templatemo.com" target="_blank">Design: TemplateMo</a></p>
+        </div>
+    </div>
+
+
+
+</footer>
 
 
     </header>
